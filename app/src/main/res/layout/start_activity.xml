@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorSky"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/girl_walk_image"
+        android:layout_width="213dp"
+        android:layout_height="312dp"
+
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="171dp" />
+
+    <ImageView
+        android:id="@+id/sun_Image"
+        android:layout_width="281dp"
+        android:layout_height="213dp"
+        app:srcCompat="@drawable/sum_color"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="4dp" />
+
+    <ImageView
+        android:id="@+id/kumoview1"
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/cloudy" />
+
+    <ImageView
+        android:id="@+id/kumoview2"
+        android:layout_width="221dp"
+        android:layout_height="110dp"
+        app:srcCompat="@drawable/cloudy"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="222dp" />
+
+    <ImageView
+        android:id="@+id/kumoview3"
+        android:layout_width="179dp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/cloudy"
+        tools:layout_editor_absoluteX="282dp"
+        tools:layout_editor_absoluteY="138dp" />
+
+    <ImageView
+        android:id="@+id/kumoview4"
+        android:layout_width="153dp"
+        android:layout_height="90dp"
+        app:srcCompat="@drawable/cloudy"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="147dp"
+        />
+
+    <ImageView
+        android:id="@+id/kumoview5"
+        android:layout_width="245dp"
+        android:layout_height="123dp"
+        app:srcCompat="@drawable/cloudy"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="351dp" />
+
+</android.support.constraint.ConstraintLayout>
